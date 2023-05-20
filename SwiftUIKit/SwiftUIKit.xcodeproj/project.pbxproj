@@ -14,6 +14,7 @@
 		C901A9862A18A80D0093C8D6 /* static in Resources */ = {isa = PBXBuildFile; fileRef = C901A9852A18A80D0093C8D6 /* static */; };
 		C901A98C2A18ABDC0093C8D6 /* SwiftUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901A98B2A18ABDC0093C8D6 /* SwiftUITextView.swift */; };
 		C901A98F2A18ACC50093C8D6 /* SwiftUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901A98E2A18ACC50093C8D6 /* SwiftUIImageView.swift */; };
+		C901A9922A1906EA0093C8D6 /* SwiftUIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901A9912A1906EA0093C8D6 /* SwiftUIStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C901A9892A18A87A0093C8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C901A98B2A18ABDC0093C8D6 /* SwiftUITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextView.swift; sourceTree = "<group>"; };
 		C901A98E2A18ACC50093C8D6 /* SwiftUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImageView.swift; sourceTree = "<group>"; };
+		C901A9912A1906EA0093C8D6 /* SwiftUIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		C901A9742A18A1060093C8D6 /* SwiftUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C901A9902A1906930093C8D6 /* Stack */,
 				C901A98D2A18ACB40093C8D6 /* Image */,
 				C901A98A2A18ABB60093C8D6 /* Text */,
 				C901A9892A18A87A0093C8D6 /* Info.plist */,
@@ -118,6 +121,14 @@
 				C901A98E2A18ACC50093C8D6 /* SwiftUIImageView.swift */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		C901A9902A1906930093C8D6 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				C901A9912A1906EA0093C8D6 /* SwiftUIStackView.swift */,
+			);
+			path = Stack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C901A9782A18A1060093C8D6 /* ContentView.swift in Sources */,
+				C901A9922A1906EA0093C8D6 /* SwiftUIStackView.swift in Sources */,
 				C901A98C2A18ABDC0093C8D6 /* SwiftUITextView.swift in Sources */,
 				C901A98F2A18ACC50093C8D6 /* SwiftUIImageView.swift in Sources */,
 				C901A9762A18A1060093C8D6 /* SwiftUIKitApp.swift in Sources */,
