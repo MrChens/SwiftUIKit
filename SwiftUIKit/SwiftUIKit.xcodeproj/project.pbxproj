@@ -15,6 +15,9 @@
 		C901A98C2A18ABDC0093C8D6 /* SwiftUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901A98B2A18ABDC0093C8D6 /* SwiftUITextView.swift */; };
 		C901A98F2A18ACC50093C8D6 /* SwiftUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901A98E2A18ACC50093C8D6 /* SwiftUIImageView.swift */; };
 		C901A9922A1906EA0093C8D6 /* SwiftUIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901A9912A1906EA0093C8D6 /* SwiftUIStackView.swift */; };
+		C901A9952A19D3CF0093C8D6 /* SwiftUIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901A9942A19D3CF0093C8D6 /* SwiftUIScrollView.swift */; };
+		C901A9972A19D4010093C8D6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901A9962A19D4010093C8D6 /* CardView.swift */; };
+		C901A9992A19D42A0093C8D6 /* ScrollViewCard.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C901A9982A19D42A0093C8D6 /* ScrollViewCard.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		C901A98B2A18ABDC0093C8D6 /* SwiftUITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextView.swift; sourceTree = "<group>"; };
 		C901A98E2A18ACC50093C8D6 /* SwiftUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImageView.swift; sourceTree = "<group>"; };
 		C901A9912A1906EA0093C8D6 /* SwiftUIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStackView.swift; sourceTree = "<group>"; };
+		C901A9942A19D3CF0093C8D6 /* SwiftUIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIScrollView.swift; sourceTree = "<group>"; };
+		C901A9962A19D4010093C8D6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C901A9982A19D42A0093C8D6 /* ScrollViewCard.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ScrollViewCard.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 		C901A9742A18A1060093C8D6 /* SwiftUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C901A9932A19D3B30093C8D6 /* ScrollView */,
 				C901A9902A1906930093C8D6 /* Stack */,
 				C901A98D2A18ACB40093C8D6 /* Image */,
 				C901A98A2A18ABB60093C8D6 /* Text */,
@@ -131,6 +138,16 @@
 			path = Stack;
 			sourceTree = "<group>";
 		};
+		C901A9932A19D3B30093C8D6 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C901A9942A19D3CF0093C8D6 /* SwiftUIScrollView.swift */,
+				C901A9962A19D4010093C8D6 /* CardView.swift */,
+				C901A9982A19D42A0093C8D6 /* ScrollViewCard.xcassets */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,6 +209,7 @@
 				C901A97D2A18A1070093C8D6 /* Preview Assets.xcassets in Resources */,
 				C901A9862A18A80D0093C8D6 /* static in Resources */,
 				C901A97A2A18A1070093C8D6 /* Assets.xcassets in Resources */,
+				C901A9992A19D42A0093C8D6 /* ScrollViewCard.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,9 +220,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C901A9972A19D4010093C8D6 /* CardView.swift in Sources */,
 				C901A9782A18A1060093C8D6 /* ContentView.swift in Sources */,
 				C901A9922A1906EA0093C8D6 /* SwiftUIStackView.swift in Sources */,
 				C901A98C2A18ABDC0093C8D6 /* SwiftUITextView.swift in Sources */,
+				C901A9952A19D3CF0093C8D6 /* SwiftUIScrollView.swift in Sources */,
 				C901A98F2A18ACC50093C8D6 /* SwiftUIImageView.swift in Sources */,
 				C901A9762A18A1060093C8D6 /* SwiftUIKitApp.swift in Sources */,
 			);
