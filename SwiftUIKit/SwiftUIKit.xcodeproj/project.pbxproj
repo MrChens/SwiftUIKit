@@ -18,6 +18,7 @@
 		C901A9952A19D3CF0093C8D6 /* SwiftUIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901A9942A19D3CF0093C8D6 /* SwiftUIScrollView.swift */; };
 		C901A9972A19D4010093C8D6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901A9962A19D4010093C8D6 /* CardView.swift */; };
 		C901A9992A19D42A0093C8D6 /* ScrollViewCard.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C901A9982A19D42A0093C8D6 /* ScrollViewCard.xcassets */; };
+		C901A99C2A19DD270093C8D6 /* SwiftUIButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901A99B2A19DD270093C8D6 /* SwiftUIButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		C901A9942A19D3CF0093C8D6 /* SwiftUIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIScrollView.swift; sourceTree = "<group>"; };
 		C901A9962A19D4010093C8D6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C901A9982A19D42A0093C8D6 /* ScrollViewCard.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ScrollViewCard.xcassets; sourceTree = "<group>"; };
+		C901A99B2A19DD270093C8D6 /* SwiftUIButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		C901A9742A18A1060093C8D6 /* SwiftUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C901A99A2A19DD000093C8D6 /* SwiftUIButton */,
 				C901A9932A19D3B30093C8D6 /* ScrollView */,
 				C901A9902A1906930093C8D6 /* Stack */,
 				C901A98D2A18ACB40093C8D6 /* Image */,
@@ -148,6 +151,14 @@
 			path = ScrollView;
 			sourceTree = "<group>";
 		};
+		C901A99A2A19DD000093C8D6 /* SwiftUIButton */ = {
+			isa = PBXGroup;
+			children = (
+				C901A99B2A19DD270093C8D6 /* SwiftUIButtonView.swift */,
+			);
+			path = SwiftUIButton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,6 +235,7 @@
 				C901A9782A18A1060093C8D6 /* ContentView.swift in Sources */,
 				C901A9922A1906EA0093C8D6 /* SwiftUIStackView.swift in Sources */,
 				C901A98C2A18ABDC0093C8D6 /* SwiftUITextView.swift in Sources */,
+				C901A99C2A19DD270093C8D6 /* SwiftUIButtonView.swift in Sources */,
 				C901A9952A19D3CF0093C8D6 /* SwiftUIScrollView.swift in Sources */,
 				C901A98F2A18ACC50093C8D6 /* SwiftUIImageView.swift in Sources */,
 				C901A9762A18A1060093C8D6 /* SwiftUIKitApp.swift in Sources */,
