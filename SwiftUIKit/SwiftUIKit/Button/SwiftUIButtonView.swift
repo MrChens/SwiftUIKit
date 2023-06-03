@@ -98,7 +98,7 @@ struct BassicButtonUsageView: View {
                 })
                 .padding()
                 .foregroundColor(.white)
-//                .background(.red)
+                .background(.red)
                 .background(LinearGradient(
                     gradient: Gradient(colors: [.red, .blue]),
                     startPoint: .leading,
@@ -106,6 +106,7 @@ struct BassicButtonUsageView: View {
                 .cornerRadius(40)
                 .shadow(radius: 5.0)
             })
+            .buttonStyle(GradientBackgroundStyle())
             
             Button(action: {
                 
