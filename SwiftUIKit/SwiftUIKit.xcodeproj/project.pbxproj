@@ -19,6 +19,7 @@
 		C901A9972A19D4010093C8D6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901A9962A19D4010093C8D6 /* CardView.swift */; };
 		C901A9992A19D42A0093C8D6 /* ScrollViewCard.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C901A9982A19D42A0093C8D6 /* ScrollViewCard.xcassets */; };
 		C901A99C2A19DD270093C8D6 /* SwiftUIButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901A99B2A19DD270093C8D6 /* SwiftUIButtonView.swift */; };
+		C9DC3DF12A2B1173002CF5EC /* SwiftUIStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC3DF02A2B1173002CF5EC /* SwiftUIStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		C901A9962A19D4010093C8D6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C901A9982A19D42A0093C8D6 /* ScrollViewCard.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ScrollViewCard.xcassets; sourceTree = "<group>"; };
 		C901A99B2A19DD270093C8D6 /* SwiftUIButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButtonView.swift; sourceTree = "<group>"; };
+		C9DC3DF02A2B1173002CF5EC /* SwiftUIStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 		C901A99D2A19EA2C0093C8D6 /* SwiftUIState */ = {
 			isa = PBXGroup;
 			children = (
+				C9DC3DF02A2B1173002CF5EC /* SwiftUIStateView.swift */,
 			);
 			path = SwiftUIState;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				C901A9972A19D4010093C8D6 /* CardView.swift in Sources */,
 				C901A9782A18A1060093C8D6 /* ContentView.swift in Sources */,
 				C901A9922A1906EA0093C8D6 /* SwiftUIStackView.swift in Sources */,
+				C9DC3DF12A2B1173002CF5EC /* SwiftUIStateView.swift in Sources */,
 				C901A98C2A18ABDC0093C8D6 /* SwiftUITextView.swift in Sources */,
 				C901A99C2A19DD270093C8D6 /* SwiftUIButtonView.swift in Sources */,
 				C901A9952A19D3CF0093C8D6 /* SwiftUIScrollView.swift in Sources */,
